@@ -6,7 +6,7 @@ class Program {
     decimal money = 0.0m;
 
     switch (money) {
-    case '0.0':
+    case 0.0m:
       Console.WriteLine("No Person is found");
       break;
     case '1':
