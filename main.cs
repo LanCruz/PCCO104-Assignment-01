@@ -3,17 +3,13 @@ using System;
 class Program {
   public static void Main (string[] args) {
 
-    decimal money = 150m;
+    decimal money = .05m;
 
     switch (money) {
     case .01m:
-      Console.WriteLine("No Person is found in Php. .01");
-      break;
     case .05m:
-      Console.WriteLine("No Person is found in Php. .05");
-      break;
     case .25m:
-      Console.WriteLine("No Person is found in Php. .25");
+      Console.WriteLine($"No Person is found in Php. {money}");
       break;
     case 1m:
       Console.WriteLine("Jose Rizal is found in Php. 1");
